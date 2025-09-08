@@ -1,0 +1,27 @@
+body { 
+    background-color: #d2ffaf;
+}
+h1 {top: -9%;
+    left: 35%;
+    position:fixed;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5b8f17;
+    font-size: 92px;
+    align-self: center;
+}
+.collapsible {
+    background-color: #5b8f17;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+}
+.active, .collapsible:hover{
+background-color: #487111;
+}
+.content {
+    padding: 47px;
+    border: #5b8f17;
+    color: #5b8f17;
+    background-color: #a6f467;
+    
+}
